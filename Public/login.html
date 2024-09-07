@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheets" rel="https://cdnjs.com/libraries/font-awesome">
+    <!--Swiper CSS LInk-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- link for the kit used for icons in website-->
+    <script src="https://kit.fontawesome.com/912d4c08a6.js" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- custom js file link  -->
+</head>
+<body>
+    <!--Header Section Starts -->
+    <header class="header">
+   
+        <section class="flex">
+     
+           <a href="home.html" class="logo"><h3><i class="fas fa-lightbulb">education</i></h3></a>
+     
+           <form action="search.html" method="post" class="search-form">
+              <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+              <button type="submit" class="fas fa-search"></button>
+           </form>
+     
+           <div class="icons">
+              <div id="menu-btn" class="fas fa-bars"></div>
+              <div id="search-btn" class="fas fa-search"></div>
+              <div id="user-btn" class="fas fa-user"></div>
+              <div id="toggle-btn" class="fas fa-sun"></div>
+           </div>
+     
+           <div class="profile">
+            <img src="images/pic-4.png" class="image" alt="">
+            <h3 class="name">Rashmi Kuliyal</h3>
+            <p class="role">student</p>
+              <!-- <a href="profile.html" class="btn">view profile</a> -->
+              <div class="flex-btn">
+                 <a href="login.html" class="option-btn">login</a>
+                 <a href="register.html" class="option-btn">register</a>
+              </div>
+           </div>
+     
+        </section>
+     
+     </header>   
+     
+     <div class="side-bar">
+     
+       
+     
+        <div class="profile">
+            <img src="images/pic-4.png" class="image" alt="">
+            <h3 class="name">Rashmi Kuliyal</h3>
+            <p class="role">student</p>
+           <!-- <a href="profile.html" class="btn">view profile</a> -->
+        </div>
+     
+        <nav class="navbar">
+           <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+           <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+           <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+           <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+           <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+        </nav>
+     
+     </div>
+     
+<!---Account form Section Starts-->
+<div class="only-form">
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Login</span>
+
+                <form action="/login.php" method="POST">
+                    <div class="input-field">
+                        <input type="email"  placeholder="Enter your email" required name="email">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Enter your password" required name="password">
+                        <i class="fas fa-lock"></i>
+                        <i class="fas fa-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Remember me</label>
+                        </div>
+                        
+                        <a href="#" class="text">Forgot password?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="submit" value="Login" class="btn">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Not a member?
+                        <a href="register.html" class="text signup-link">Signup Now</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Footer Section starts-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3><i class="fas fa-lightbulb">education</i></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur hil vero dicta n</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="home.html" class="link">home</a>
+            <a href="about.html" class="link">about</a>
+            <a href="courses.html" class="link">courses</a>
+            <a href="contact.html" class="link">contacts</a>
+            <a href="teachers.html" class="link">teachers</a>
+        </div>
+        <div class="box">
+            <h3>Useful Links</h3>
+            <a href="#" class="link">Help Centre</a>
+            <a href="#" class="link">ask Questions</a>
+            <a href="#" class="link">Send FeedBack</a>
+            <a href="#" class="link">Privacy Policy</a>
+            <a href="#" class="link">Terms Of Use</a>
+        </div>
+        <div class="box">
+            <h3>News-Letter</h3>
+            <p>Subscribe For Latest Updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+            </form>
+        </div>
+    </div>
+    <div class="credit"> Created by <span> Rashmi Kuliyal </span> | all Rights Reserved</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./JS/index.js"></script>
+<script src="./JS/app.js"></script>
+</body>
+</html>
